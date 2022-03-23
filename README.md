@@ -2,18 +2,13 @@
  This project is for SK Planet Industry Cooperation Project (2020.8~ 2020.12)
  
 ## execution environment
------
 Windows 10, Anaconda3(admin)<br>
 Anaconda3 가상환경 세팅 파일 -> environment.yaml
 
-Install Anaconda 3
------
+## Install Anaconda 3
 https://www.anaconda.com/products/individual
 
----
-
-Import virtual environment
------
+## Import virtual environment
 Anaconda Prompt에서 프로젝트 폴더로 이동 후
 ```
 conda env create -f environment.yaml
@@ -25,9 +20,8 @@ conda activate skplanet-wps
 ```
 가상환경 활성화
 
----
 
-Excute script
+## Excute script
 ---
 ```
 python ~.py
@@ -42,8 +36,7 @@ jupyter notebook
 
 ---
 
-실행 순서
----
+## Step to execte
 1. Collect wifi data with collector.py
 2. Put the data you want to use for model training in ml_data/signal_data
 3. Run make_ml_data.ipynb (generate data for model training)
