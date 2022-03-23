@@ -1,7 +1,7 @@
 # Wifi based indoor location recognition applicaion
  This project is for SK Planet Industry Cooperation Project (2020.8~ 2020.12)
  
-## execution environment
+## Execution environment
 Windows 10, Anaconda3(admin)<br>
 Anaconda3 가상환경 세팅 파일 -> environment.yaml
 
