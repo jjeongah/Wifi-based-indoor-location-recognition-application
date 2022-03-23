@@ -1,4 +1,6 @@
-﻿# SK플래닛 Wi-Fi 기반 위치인식
+# Wifi based indoor location recognition applicaion
+ This project is for SK Planet Industry Cooperation Project (2020.8~ 2020.12)
+ 
 실행환경
 -----
 Windows 10, Anaconda3(admin)<br>
