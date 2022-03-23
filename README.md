@@ -34,7 +34,7 @@ jupyter notebook
 (파이썬 kernel을 skplanet-wps으로 설정해야 함)<br>
 
 
-## Step to execte
+## Steps to execte
 1. Collect wifi data with collector.py
 2. Put the data you want to use for model training in ml_data/signal_data
 3. Run make_ml_data.ipynb (generate data for model training)
