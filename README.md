@@ -22,7 +22,6 @@ conda activate skplanet-wps
 
 
 ## Excute script
----
 ```
 python ~.py
 ```
@@ -34,7 +33,6 @@ jupyter notebook
 혹은 vscode의 python extension 설치하면 코드 상에서 수정 가능<br>
 (파이썬 kernel을 skplanet-wps으로 설정해야 함)<br>
 
----
 
 ## Step to execte
 1. Collect wifi data with collector.py
