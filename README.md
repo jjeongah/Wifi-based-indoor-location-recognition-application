@@ -1,18 +1,18 @@
 # Wifi based indoor location recognition applicaion
  This project is for SK Planet Industry Cooperation Project (2020.8~ 2020.12)
  
-실행환경
+## execution environment
 -----
 Windows 10, Anaconda3(admin)<br>
 Anaconda3 가상환경 세팅 파일 -> environment.yaml
 
-Anaconda 3 설치
+Install Anaconda 3
 -----
 https://www.anaconda.com/products/individual
 
 ---
 
-가상환경 불러오기
+Import virtual environment
 -----
 Anaconda Prompt에서 프로젝트 폴더로 이동 후
 ```
@@ -27,7 +27,7 @@ conda activate skplanet-wps
 
 ---
 
-스크립트 실행
+Excute script
 ---
 ```
 python ~.py
@@ -44,10 +44,10 @@ jupyter notebook
 
 실행 순서
 ---
-1. collector.py로 wifi 데이터 수집
-2. 모델 학습에 사용하고자 하는 데이터를 ml_data/signal_data에 넣기
-3. make_ml_data.ipynb 실행 (모델 학습용 데이터 생성)
-4. randomforest.ipynb와 svm.ipynb로 모델 학습 (ml_data 폴더 안에 저장됨)
-5. detection.py로 실시간 인식 수행
+1. Collect wifi data with collector.py
+2. Put the data you want to use for model training in ml_data/signal_data
+3. Run make_ml_data.ipynb (generate data for model training)
+4. Train model with randomforest.ipynb and svm.ipynb (saved in ml_data folder)
+5. Perform real-time recognition with detection.py
 
 
