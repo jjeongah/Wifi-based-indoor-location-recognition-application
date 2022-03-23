@@ -1,0 +1,9 @@
+.vscode/
+ml_data/
+signal_data/
+processed_data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+reference/
+temp/
