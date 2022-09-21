@@ -1,5 +1,6 @@
 # Wifi based indoor location recognition applicaion
  This project is for SK Planet Industry Cooperation Project (2020.8~ 2020.12)
+ project description:
  https://bit.ly/3OGIMUT
  
 ## Execution environment
